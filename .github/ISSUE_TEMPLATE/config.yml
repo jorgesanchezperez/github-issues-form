@@ -1,8 +1,11 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Soporte de la Comunidad de GitHub
-    url: https://github.community/
+  - name: Secure Banking Access Toolkit community support
+    url: https://backstage.forgerock.com/
     about: Please ask and answer questions here.
-  - name: GitHub Security Bug Bounty
-    url: https://bounty.github.com/
+  - name: Forgerock Secure Banking Toolkit documentation
+    url: https://backstage.forgerock.com/
+    about: Please read the documentation here.
+  - name: Forgerock Secure Banking Access Toolkit security
+    url: https://backstage.forgerock.com/
     about: Please report security vulnerabilities here.
