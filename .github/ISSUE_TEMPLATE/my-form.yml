@@ -2,6 +2,7 @@ name: Epic journey form
 description: SBAT Epic form
 title: "[Epic]: "
 labels: ["epic", "feature"]
+projects: ["jorge-project"]
 assignees:
   - jorgesanchezperez
 body:
