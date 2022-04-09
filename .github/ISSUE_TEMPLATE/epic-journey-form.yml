@@ -1,0 +1,80 @@
+name: Epic form
+description: Epic form
+title: "[Epic]: "
+labels: ["epic"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        > Please fill out this epic form and click `create an epic` button at the bottom, you need access to **zenhub** with extension.
+        
+        > Remember to add a proper title related with this epic issue.
+  - type: textarea
+    id: introducction
+    attributes:
+      label: Introduction
+      description: write a short description of what you hope to achieve with the epic.
+      placeholder: |
+        This feature will allow users to ...
+    validations:
+      required: true
+  - type: textarea
+    id: story
+    attributes:
+      label: User Story
+      description: write the user story.
+      placeholder: |
+        As the [product manager], I want to [do something] so that [comply with the achievement].
+    validations:
+      required: true
+  - type: textarea
+    id: product-requirements
+    attributes:
+      label: Product requirements (optional)
+      description: Provide an explanation about the requirements if necessary
+      placeholder: |
+        - Client can initiate a payment...
+        - The client can submit a payment...
+        - The client can get the payment resource status...
+    validations:
+      required: false
+  - type: textarea
+    id: design-requirements
+    attributes:
+      label: Design requirements (optional)
+      description: Provide an explanation about the design requirements if necessary
+      placeholder: |
+        - The intent needs to be stored in IDM ...
+        - The UI needs to be in pink color ...
+    validations:
+      required: false
+  - type: textarea
+    id: Scope
+    attributes:
+      label: Scope
+      description: The boundaries. The range of work will help the team to stay on track.
+      placeholder: |
+        - Submit a intent.
+        - Submit a resource to be processed.
+    validations:
+      required: true
+  - type: textarea
+    id: criteria
+    attributes:
+      label: Acceptance Criteria
+      description: Know when to define completion for the epic.
+      placeholder: Tell us the acceptance criteria...
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: Level of priority
+      options:
+        - Low (Default)
+        - Normal
+        - High
+        - Critical
+    validations:
+      required: true
